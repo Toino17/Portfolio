@@ -1,0 +1,112 @@
+header{
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+.ul_navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.img_logo_nav{
+    
+}
+
+.ul_navbar li{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+.ul_navbar li:hover{
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 25px;
+
+}
+
+.main_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+    
+   
+}
+
+.card_presentation{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.jobcard{
+    color: #BEB0A7;
+    margin-bottom: 7%;
+}
+
+.text_intro, .text_intro2{
+    color: aliceblue;
+    margin-bottom: 7%;
+}
+
+.card_presentation h1{
+    color: #BEB0A7;
+}
+
+.inputcv{
+    background-color: #BEB0A7;
+    border-radius: 3px;
+    width: 40%;
+    
+}
+
+#changing-text{
+    color: white;
+}
+
+.reseaux_ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.reseaux_ul img{
+    width: 35px;
+    height: 35px;
+}
+
+.reseaux{
+    
+    position: fixed;
+    top: 65%;
+    right: 94%;
+
+}
