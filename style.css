@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: byebyeaside 2s 4.8s forwards;
+    animation: byebyeaside 2s 8s forwards;
 }
 
 .hiddenbordertop{
@@ -53,7 +53,7 @@
     background-color: #161616;
     position: absolute;
     top: 100%;
-    animation: hiddenblackanim 1s 3s forwards;
+    animation: hiddenblackanim 1s 4s forwards;
 }
 
 .hiddenblack2{
@@ -62,7 +62,7 @@
     background-color: #161616;
     position: absolute;
     opacity: 0;
-    animation: hiddenblackanim2 3s 4s forwards;
+    animation: hiddenblackanim2 3s 6.5s forwards;
     z-index: 4;
 }
 
@@ -81,6 +81,19 @@
     animation: loadtext1  2s 0.5s forwards;
     font-size: 1.8rem;
     margin-bottom: 0px;
+    z-index: 4;
+}
+
+.load-text2{
+    opacity: 0;
+    animation: load-text2  2.5s 4.5s forwards;
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 30%;
+    color: bisque;
+    z-index: 5;
+
 }
 
 header{
@@ -557,4 +570,24 @@ a{
     }
 }
 
-on
+@keyframes load-text2 {
+    0%{
+        
+    }
+    50%{
+        opacity: 1;
+        top: 35%;
+        z-index: 5;
+    }
+    99%{
+        top:40%;
+        opacity: 0;
+        z-index: 5;
+    }
+    100%{
+        top:40%;
+        opacity: 0;
+        z-index: 5;
+    }
+    
+}
